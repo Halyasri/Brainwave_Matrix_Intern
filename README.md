@@ -119,7 +119,6 @@ python3 --version
 
 If Python is not installed, you will need to download and install it from [python. org](https://www.python.org/downloads/).
 
-Feel free to reach out if you need more help or further instructions!
 
 
 
