@@ -14,9 +14,9 @@
      ```
 
 3. **Create a New File with Nano**:
-   - To create a new file named `password_strength_checker.py`, type:
+   - To create a new file named `password_strength_checker`, type:
      ```bash
-     nano password_strength_checker.py
+     nano password_strength_checker
      ```
 
 4. **Paste Your Code into Nano**:
@@ -99,7 +99,7 @@
 2. **Run the Script**:
    - Execute the script with the following command:
      ```bash
-     python password_strength_checker.py
+     python password_strength_checker
      ```
 
 3. **Test the Functionality**:
@@ -117,7 +117,7 @@ or
 python3 --version
 ```
 
-If Python is not installed, you will need to download and install it from [python.org](https://www.python.org/downloads/).
+If Python is not installed, you will need to download and install it from [python. org](https://www.python.org/downloads/).
 
 Feel free to reach out if you need more help or further instructions!
 
