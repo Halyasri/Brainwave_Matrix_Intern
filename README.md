@@ -30,7 +30,7 @@ To successfully install and run the **Password Strength Checker** you developed,
 ### Step 2: Clone the Repository
 
 1. Open your terminal or command prompt.
-2. Clone the GitHub repository (replace `yourusername` with your actual GitHub username):
+2. Clone the GitHub repository 
    ```bash
    git clone https://github.com/Brainwave_Matrix_Intern/password_strength_checker.git
    ```
@@ -81,21 +81,18 @@ Creating a virtual environment helps manage dependencies for your project.
 
    - **Weak Password Example:**
      ```
-     Enter a password: password123
-     Weak: Consider using uppercase, lowercase, numbers, and special characters.
-     ```
+     Enter a password: 1234
+     Password strength: weak 
 
    - **Moderate Password Example:**
      ```
      Enter a password: P@ssword1
-     Moderate: Good effort! Adding more variety could enhance strength.
-     ```
+     Password strength: Medium
 
    - **Strong Password Example:**
      ```
      Enter a password: Str0ng!Password2024
-     Strong: Great job! Your password is strong.
-     ```
+     Password strength: strong      
 
 ### Example Usage
 
@@ -103,16 +100,19 @@ Here’s a hypothetical session with the password strength checker:
 
 ```plaintext
 $ python password_strength_checker.py
-Enter a password: mysecret
+Enter a password: 12345
 Weak: Password must be at least 8 characters.
    
-Enter a password: mysecretpassword123
-Moderate: Good effort! Adding more variety could enhance strength.
+Enter a password: halya098@
+Medium: Good effort! Adding more variety could enhance strength.
 
 Enter a password: My$ecUr3P@ssw0rd!
 Strong: Great job! Your password is strong.
 ```
 
+## License  
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
