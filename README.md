@@ -56,29 +56,62 @@ Creating a virtual environment helps manage dependencies for your project.
    - **On macOS/Linux:**
      ```bash
      source venv/bin/activate
+
+### How to Use the Password Strength Checker
+
+1. **Run the Application**
+
+   If you’ve followed the earlier steps and have your environment set up, you simply need to execute the script. Open your terminal or command prompt, navigate to the project directory where your `password_strength_checker.py` file is located, and run:
+
+   ```bash
+   python3 password_strength_checker
+   ```
+
+2. **Enter a Password**
+
+   Once the script runs, it will prompt you to enter a password. For example:
+
+   ```
+   Enter a password: 
+   ```
+
+3. **Receive Feedback on Password Strength**
+
+   After you input a password and press "Enter," the tool will analyze it based on predefined criteria (length, complexity, and uniqueness) and provide feedback. Here’s how it might respond based on different password inputs:
+
+   - **Weak Password Example:**
+     ```
+     Enter a password: password123
+     Weak: Consider using uppercase, lowercase, numbers, and special characters.
      ```
 
-### Step 4: Install Dependencies
+   - **Moderate Password Example:**
+     ```
+     Enter a password: P@ssword1
+     Moderate: Good effort! Adding more variety could enhance strength.
+     ```
 
-If your project uses any additional packages (for example, Flask if you decided to make a web app), you should install them here. For the basic password strength checker we’ve set up, no additional dependencies are necessary, but you can create a `requirements.txt` file if you later add libraries.
+   - **Strong Password Example:**
+     ```
+     Enter a password: Str0ng!Password2024
+     Strong: Great job! Your password is strong.
+     ```
 
-1. Create a `requirements.txt` file in your project directory and include any dependencies:
-   ```
-   # Example content (add if needed)
-   flask
-   ```
-2. Install dependencies (if applicable):
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Example Usage
 
-### Step 5: Run Your Password Strength Checker Tool
+Here’s a hypothetical session with the password strength checker:
 
-1. Make sure you're still in the password strength checker directory.
-2. Run the script:
-   ```bash
-   python password_strength_checker.py
-   ```
+```plaintext
+$ python password_strength_checker.py
+Enter a password: mysecret
+Weak: Password must be at least 8 characters.
+   
+Enter a password: mysecretpassword123
+Moderate: Good effort! Adding more variety could enhance strength.
+
+Enter a password: My$ecUr3P@ssw0rd!
+Strong: Great job! Your password is strong.
+```
 
 
 
