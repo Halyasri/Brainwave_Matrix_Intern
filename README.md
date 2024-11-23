@@ -99,7 +99,7 @@
 2. **Run the Script**:
    - Execute the script with the following command:
      ```bash
-     python password_strength_checker
+     python3 password_strength_checker
      ```
 
 3. **Test the Functionality**:
