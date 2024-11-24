@@ -7,19 +7,13 @@
 1. **Open Terminal**:
    - Launch your terminal application.
 
-2. **Navigate to Your Desired Directory**:
-   - Use the `cd` command to change to the directory where you want to create your script. For example:
-     ```bash
-     cd path/to/your/directory
-     ```
-
-3. **Create a New File with Nano**:
+2. **Create a New File with Nano**:
    - To create a new file named `password_strength_checker`, type:
      ```bash
      nano password_strength_checker
      ```
 
-4. **Paste Your Code into Nano**:
+3. **Paste Your Code into Nano**:
    - After opening the `nano` editor, paste the password strength checker code into the editor. To paste in a terminal, you can usually use `Ctrl + Shift + V` (on Linux) or `Command + V` (on macOS).
 
    Here’s the code to paste:
@@ -84,14 +78,14 @@
    print(f"Password strength: {strength}")
    ```
 
-5. **Save the File**:
-   - Once you have pasted the code, save the file by pressing `Ctrl + O` (the letter O, not zero).
+4. **Save the File**:
+   - After pasting the code, save the file by pressing `Ctrl + O` (the letter O, not zero).
    - Nano will prompt you to confirm the file name. Just press `Enter` to confirm.
 
-6. **Exit Nano**:
+5. **Exit Nano**:
    - To exit the nano editor, press `Ctrl + X`.
 
-### Step 6: Run Your Script
+### Step 5: Run Your Script
 
 1. **Make Sure You’re in the Right Directory**:
    - Verify that you're still in the directory where you saved the file.
@@ -117,7 +111,7 @@ or
 python3 --version
 ```
 
-If Python is not installed, you will need to download and install it from [python. org](https://www.python.org/downloads/).
+If Python is not installed, you must download and install it from [python. org](https://www.python.org/downloads/).
 
 
 
