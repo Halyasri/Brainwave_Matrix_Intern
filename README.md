@@ -94,8 +94,10 @@
    - Execute the script with the following command:
      ```bash
      python3 password_strength_checker
-or 
-      python3 password_strength_checker
+
+or
+        
+     python3 password_strength_checker
      ```
      
 
