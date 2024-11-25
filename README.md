@@ -2,7 +2,7 @@
 
 ## Installation 
 
-### Steps to Save Your Script Using Nano
+### Steps to Save Your Script Using Nano 
 
 1. **Open Terminal**:
    - Launch your terminal application.
