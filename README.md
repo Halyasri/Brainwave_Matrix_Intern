@@ -97,7 +97,7 @@
 
 or
         
-     python3 password_strength_checker
+       python3 password_strength_checker
      ```
      
 
