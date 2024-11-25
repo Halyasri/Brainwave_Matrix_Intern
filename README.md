@@ -92,14 +92,13 @@
 
 2. **Run the Script**:
    - Execute the script with the following command:
-     ```bash
-     python3 password_strength_checker
-
-or 
-
-      python3 password_strength_checker.py
-       ```
-     
+```bash
+python3 password_strength_checker
+```
+or
+```bash
+python password_strength_checker.py
+```
 
 4. **Test the Functionality**:
    - Enter various passwords when prompted to see the strength ratings.
