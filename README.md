@@ -100,7 +100,7 @@ or
 python password_strength_checker.py
 ```
 
-4. **Test the Functionality**:
+3. **Test the Functionality**:
    - Enter various passwords when prompted to see the strength ratings.
 
 ### Optional: Check if Python is Installed
