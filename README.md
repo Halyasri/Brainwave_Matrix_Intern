@@ -97,9 +97,9 @@
      
    or
    
-     ```bash
-     python3 password_strength_checker.py
-     ```
+       ```bash
+       python3 password_strength_checker.py
+       ```
      
 
 4. **Test the Functionality**:
