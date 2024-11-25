@@ -94,11 +94,10 @@
    - Execute the script with the following command:
      ```bash
      python3 password_strength_checker
-
-or
-        
-       python3 password_strength_checker
-     ```
+     or
+```bash
+python3 password_strength_checker.py
+```
      
 
 3. **Test the Functionality**:
